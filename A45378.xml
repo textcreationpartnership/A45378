@@ -1,0 +1,414 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A burning and a shining light a sermon preached at the funeral of the late reverend Mr. James Wrexham, minister at Haversham in the county of Bucks / by John Hammat.</title>
+            <author>Hammat, John, b. 1657 or 8.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1685</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 42 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A45378</idno>
+            <idno type="STC">Wing H490</idno>
+            <idno type="STC">ESTC R9273</idno>
+            <idno type="EEBO-CITATION">11808492</idno>
+            <idno type="OCLC">ocm 11808492</idno>
+            <idno type="VID">49477</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A45378)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 49477)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 495:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A burning and a shining light a sermon preached at the funeral of the late reverend Mr. James Wrexham, minister at Haversham in the county of Bucks / by John Hammat.</title>
+                  <author>Hammat, John, b. 1657 or 8.</author>
+               </titleStmt>
+               <extent>[8], 32 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Nath. Ponder ..., and Thomas Watson ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1685.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Wrexham, James, d. 1685?</term>
+               <term>Bible. --  N.T. --  John V, 35 --  Sermons.</term>
+               <term>Funeral sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-06</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2011-06</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:49477:1"/>
+            <pb facs="tcp:49477:1" rendition="simple:additions"/>
+            <p>
+               <hi>A Burning and a Shining Light:</hi> A SERMON Preached at the Funeral OF The late Reverend Mr. <hi>James Wrexham,</hi> Miniſter at <hi>Haverſham</hi> in the County of <hi>Bucks.</hi>
+            </p>
+            <p>By <hi>John Hammat, M. A.</hi> and Vicar of <hi>Stanton-berry.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Nath. Ponder,</hi> in the <hi>Poultrey,</hi> and <hi>Thomas Watſon,</hi> Bookſeller in <hi>Newport-Pagnell.</hi> 1685.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:49477:2"/>
+            <pb facs="tcp:49477:2"/>
+            <head>TO THE READER.</head>
+            <opener>
+               <salute>Reader,</salute>
+            </opener>
+            <p>THIS plain Sermon had not ſeen the Light, had it not been for the Sake, and Deſire of that dear People, to whom my Reverend Brother, and my ſelf had a joynt Relation; and to preſerve his Me<g ref="char:EOLhyphen"/>mory amongſt thoſe, who had the Happineſs to know him, and the Grace to love him. The Death of good Miniſters (who are our Chariots and Horſe-men) is a ſad Omen, and 'tis a ſadder, they dye no more lament<g ref="char:EOLhyphen"/>ed. It is reported of <hi>Philo</hi> the <hi>Jew,</hi> that he wept when he heard of the Death of any good Man: but there are but few <hi>Phi<g ref="char:EOLhyphen"/>lo's</hi> now: Good Men live unbeloved by the generality, and dye unbewailed. I ſpeak not this with reſpect to my Brother, it pleaſed the Lord to place him more happily than
+<pb facs="tcp:49477:3"/>moſt are; his Auditours rejoyced in his Light while he lived, and when dead, with great Lamentation carried him to his Grave. May God bleſs theſe few Lines to do that good that is intended, and I ſhall be ſatisfi<g ref="char:EOLhyphen"/>ed, and none will have Reaſon to be diſſa<g ref="char:EOLhyphen"/>tisfied.</p>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:49477:3"/>
+            <head>Upon the Death of that Pious and Profound Divine, Mr. <hi>James Wrexham.</hi>
+            </head>
+            <lg n="1">
+               <head>(I.)</head>
+               <l>BLEST with the Sight of Artificial Men</l>
+               <l>Rank'd in a Gallery, thus did I deem,</l>
+               <l>Are theſe their own Survivors in this room?</l>
+               <l>Or are th'Graves Priſoners looſe, and hither come?</l>
+               <l>I mus'd upon the matter once agen,</l>
+               <l>And ſecond Thoughts corrected my Eſteem.</l>
+               <l>Then I confeſt,</l>
+               <l>Theſe man are ſprung from Brains and Heart,</l>
+               <l>The Progeny of Love and Art.</l>
+               <l>Then a new thought my mind poſſeſt,</l>
+               <l>This is a teeming and improving Age,</l>
+               <l>I'll Paint a Soul. A Soul as dear as fair,</l>
+               <l>O, 'twill be rare!</l>
+               <l>When 'tis inveſted in its lively hue</l>
+               <l>Our Converſation we'll renew.</l>
+               <l>I haſted to my work, rapt with a pleaſant rage.</l>
+            </lg>
+            <lg n="2">
+               <head>(II.)</head>
+               <l>I got ſuch Colours as I judg'd moſt fit,</l>
+               <l>The Flame colour, I thought would do,</l>
+               <l>Together with the heavenly Blue,</l>
+               <l>My Knowledge was th' enlight'ned Air;</l>
+               <l>My Heart, the Chair</l>
+               <l>In which the Darling of my Thoughts did ſit.</l>
+               <l>I took my Penſil and began to draw,</l>
+               <l>I ſcarce had drawn a Line,</l>
+               <l>But, lo! I ſaw</l>
+               <l>An Heaven-born Muſe, the graveſt of the Nine.</l>
+               <pb facs="tcp:49477:4"/>
+               <l> Said ſhe, What mean thoſe Colours there?</l>
+               <l>I anſwer'd readily,</l>
+               <l>A Soul is in my Eye,</l>
+               <l>A ſplendid Soul. I'll paint it on this Table here.</l>
+               <l>The Flame will ſhew its quick Aſcent,</l>
+               <l>The Blue will ſhew its Element.</l>
+               <l>O how I pleas'd my ſelf, that my account was fair!</l>
+            </lg>
+            <lg n="3">
+               <head>(III.)</head>
+               <l>But pleaſant Errours are but Childrens Playes,</l>
+               <l>She with a gentle ſmile reply'd,</l>
+               <l>The blue and the bright-flowered Curtains hide</l>
+               <l>What ſhines un-envy'd on the other ſide.</l>
+               <l>But theſe</l>
+               <l>To Mortals do forbid the glorious Raies.</l>
+               <l>Moreover,</l>
+               <l>Thou'lt draw a Shine, but can'ſt thou paint the heat,</l>
+               <l>The Vitals of his Soul, and how his Heart did beat?</l>
+               <l>Can'ſt thou diſcover</l>
+               <l>His quick and mighty Zeal?</l>
+               <l>Pure Zeal that iſſu'd from above,</l>
+               <l>Compos'd of Prudence and of Love.</l>
+               <l>Can'ſt paint the Pleaſures which into his Soul did ſteal?</l>
+               <l>Tow'ring Eagles, winged Boyes,</l>
+               <l>Are but faint Emblems of Devotional Joyes.</l>
+               <l>A golden Mouth doth fall within thy bounds,</l>
+               <l>But can'ſt thou paint his heavenly ſounds?</l>
+               <l>She further ſaid,</l>
+               <l>His depths of Learning cannot be pourtray'd</l>
+               <l>By your poor Penſil—He has done it with his Quill.</l>
+            </lg>
+            <lg n="4">
+               <pb facs="tcp:49477:4"/>
+               <head>(IV.)</head>
+               <l>He was the <hi>Jonah</hi> of the Age;</l>
+               <l>Buried alive: In horrors Gulf involv'd,</l>
+               <l>Yet undiſſolv'd.</l>
+               <l>The Artiſt was too wiſe t' engage</l>
+               <l>To draw ſad <hi>Agamemnon</hi>'s Face,</l>
+               <l>When he his <hi>Iphigenia</hi> did bewail,</l>
+               <l>But overcaſt it with a Vail,</l>
+               <l>And left it to Spectators to ſpell out the Caſe.</l>
+               <l>Tremble, weak Hand, none of thy ſtrokes can ſhow</l>
+               <l>How he did conflict with the Fiends below.</l>
+               <l>He went into the deeps to learn;</l>
+               <l>And O, the pious Myſt'ries he did there diſcern!</l>
+            </lg>
+            <lg n="5">
+               <head>(V.)</head>
+               <l>But, lo! our <hi>Jonah</hi> comes a ſhore,</l>
+               <l>And the <hi>Leviathan</hi> never touch'd him more.</l>
+               <l>Then chearfully he went,</l>
+               <l>Whither he was moſt wonderfully ſent,</l>
+               <l>He preach'd unto his <hi>Ninevites,</hi> Repent.</l>
+               <l>His Words were light'ning, of an heavenly riſe,</l>
+               <l>Which ſpar'd the Perſon, but conſum'd the Vice.</l>
+               <l>O how his Hearers were to him enchain'd,</l>
+               <l>Whilſt he the Sacred Text explain'd!</l>
+               <l>He ſick'ned there,</l>
+               <l>In <hi>Moſes</hi> Chair.</l>
+               <l>And he with <hi>Moſes</hi> on the Mount did dye,</l>
+               <l>With <hi>Canaan</hi> in his Eye.</l>
+               <l>But can your Colours tell</l>
+               <l>The Glories of an heavenly Throne?</l>
+               <l>O whither, whither is he gone!</l>
+               <l>This ſaid; ſhe left me all alone.</l>
+               <l>I ſtood amaz'd— And down my Penſil fell.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:49477:5"/>
+            <head>Upon the Death of that Faithful Servant of Chriſt, Mr. <hi>James Wrexham.</hi>
+            </head>
+            <lg>
+               <l>COME Tears, ye pearly dewes; your Forces joyn,</l>
+               <l>To waſh the Body of a great Divine.</l>
+               <l>Lament, O <hi>England,</hi> at a Prophets Tomb,</l>
+               <l>One Pillar's fall doth ſorely ſhake the Room.</l>
+               <l>Late monſtrous Stars did look us into fear,</l>
+               <l>What think we, when our kind Stars diſappear?</l>
+               <l>Needs muſt a dreadful Darkneſs us ſurround,</l>
+               <l>When Lamps are Tapers watching under Ground.</l>
+               <l>
+                  <hi>Ha'rſham,</hi> Lament. Thy pleaſant Sermon Bell</l>
+               <l>Is turn'd into a doleful Funeral-Knell.</l>
+               <l>You were the Field, where he beſtow'd his Pains,</l>
+               <l>In hopes to reap your Graces for his Gains.</l>
+               <l>Your Chancels Northern part bedew with Tears,</l>
+               <l>In memory of your former golden Years.</l>
+               <l>Ah, Loſs on Loſs! What Heart can this abide?</l>
+               <l>The young one ſleeping by th' old Prophet's ſide.</l>
+               <l>Children, Lament. Your Catechiſt is gone,</l>
+               <l>Your Morning's over-caſt, which lately ſhone.</l>
+               <l>Both Young and Old, Lament your mighty Loſs,</l>
+               <l>Ye wore the Crown, but now you bear the Croſs.</l>
+               <l>But he, whoſe Heart doth not Lament his fall,</l>
+               <l>Deſerves to be lamented moſt of all.</l>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:49477:5"/>
+            <head>A BURNING AND A <hi>Shining Light, &amp;c.</hi>
+            </head>
+            <epigraph>
+               <bibl>JOHN 5.35.</bibl>
+               <q>
+                  <p>He was a burning and a ſhining light, and ye were willing for a ſeaſon to rejoyce in his light.</p>
+               </q>
+            </epigraph>
+            <p>OUR Saviour in the Context ſpeaks of four Witneſſes, who atteſted that he was the Chriſt, the Son of God; his <hi>Father,</hi> his <hi>Works,</hi> the <hi>Scriptures,</hi> and <hi>John</hi> the Baptiſt. The Teſtimony of <hi>John Baptiſt</hi> (which was <hi>argumentum ad ho<g ref="char:EOLhyphen"/>minem</hi>) he produced <hi>ex abundanti, q.d.</hi> 
+               <q>The Teſtimony of a wiſe and good man,
+<pb n="2" facs="tcp:49477:6"/>weighs with men; and ſuch a one <hi>John Baptiſt</hi> was eſteem'd to be by you,</q> (the <hi>Jews</hi> we know had a great Veneration for him, and many of them have at this day) <q>ye conſulted him concerning the <hi>Meſſiah,</hi> he denied that he was the Perſon, and bore witneſs of me, and ye rejoyced in his Light, the light of his Life, and the light of his Miniſtry.</q> This I might in<g ref="char:EOLhyphen"/>ſiſt on, and expect that ye ſhould believe, becauſe of his witneſs, who was a <hi>burning and a ſhining Light,</hi> a Prophet that might be credited; but I receive not Teſtimony from man; I have greater Witneſſes; nei<g ref="char:EOLhyphen"/>ther do I ſpeak it out of Ambition, but for your Edification and Salvation.</p>
+            <p>The Text contains firſt, an <hi>Encomium</hi> which our Saviour gave of <hi>John Baptiſt,</hi> ei<g ref="char:EOLhyphen"/>ther after his Impriſonment or Death, (Di<g ref="char:EOLhyphen"/>vines determine not which) his evident 't was when he was taken off from his publick Mi<g ref="char:EOLhyphen"/>niſtry.</p>
+            <p>He was a <hi>burning and a ſhining Light.</hi>
+            </p>
+            <pb n="3" facs="tcp:49477:6"/>
+            <p> Secondly, A Reprehenſion of the <hi>Jews</hi> for being ſo ſoon weary of his Miniſtry. <hi>Ye were willing for a ſeaſon to rejoyce in his Light.</hi> Or, if you will, an Account of the great Miniſter and Prophet <hi>John Baptiſt: He was &amp;c.</hi>
+            </p>
+            <p>Thirdly, an Account how the <hi>Jews</hi> (to whom he was ſent) behaved themſelves under his Miniſtry: <hi>Ye were willing &amp;c.</hi>
+            </p>
+            <p>You have in the Text theſe four Obſer<g ref="char:EOLhyphen"/>vables.</p>
+            <p>
+               <hi>Doct.</hi> 1. Firſt, <hi>Faithful Miniſters are burn<g ref="char:EOLhyphen"/>ing and ſhining Lights, or Candles, or Lamps, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Candela, Lueerna:</hi> He was a burning and ſhining Light.</p>
+            <p>
+               <hi>Doct.</hi> 2. Secondly, <hi>Theſe burning and ſhining lights will be extinguiſhed. He was, &amp;c.</hi> He was, but now is extinct, burns and ſhines no more to you; Alas, that we muſt ſay ſo now of our Reverend Brother, he was a burning and ſhining Light: how ſoon is this great Lamp put out? How ſplendidly did he ſhine, and caſt his Rays farther than this Pariſh; but now he is gone; why ſo ſoon, it behoves us ſeriouſly to enquire.</p>
+            <pb n="4" facs="tcp:49477:7"/>
+            <p> 
+               <hi>Doct.</hi> 3. Thirdly, <hi>The generality are plea<g ref="char:EOLhyphen"/>ſed with a faithful Miniſter only for a little time. And ye were willing to rejoyce, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, for an hour;</hi> it ſignifies a ſhort ſeaſon, an hour being a ſmall part of time. When a Miniſter is newly come to them, they are pleaſed with his blameleſs Life, and affecting Sermons, they flock to hear him, and admire at the <hi>gracious Words</hi> that proceed out of his Mouth, as the <hi>Jews</hi> did at Chriſt, <hi>Luke</hi> 4.22. Yea, are ready to adore him, as the <hi>Lycaonians, Paul</hi> and <hi>Barnabas. Acts</hi> 14.11, 12. <hi>&amp;c.</hi> But alaſs, the Scene is quickly changed, his ſerious Exhortations, and Reproofs, and holy Life prick their Conſciences, and di<g ref="char:EOLhyphen"/>ſturb them in their purſuit of ſinful Gains and Pleaſures: or ſome malitious Tongues bring up evil Reports of him: and then they hate and deſpiſe him, as much as before they loved and honoured him. Bleſſed be God, I cannot ſay this of you: you were conſtant<g ref="char:EOLhyphen"/>ly forward to attend on the Miniſtry of the word (which is the Glory of this Pariſh;
+<pb n="5" facs="tcp:49477:7"/>Oh that you might never loſe it.) Your Paſtour dyed lamented by you, (as well he might) 'tis your Grief that you had but a ſhort ſeaſon to rejoyce in his Light: Ah, ſhort indeed! but three or four years did he burn and ſhine amongſt us, and he is extin<g ref="char:EOLhyphen"/>guiſhed; he did not go out of himſelf, as ſome Hypocrites, who blaze for a little time, but wanting a ſtock of Oyl, having not the root of the Matter in them, go out in a ſnuff, and leave a ſtink behind them: no, God ex<g ref="char:EOLhyphen"/>tinguiſhed him, who burnt ſtrong and bright, untill God did it; yea brighter and brighter, the longer he continued. But it may be ſaid thus of many; ye ſee it is of <hi>John Baptiſts</hi> Auditours in my Text, and of the <hi>Lyca<g ref="char:EOLhyphen"/>onians</hi> in <hi>Acts</hi> 14.</p>
+            <p>
+               <hi>Doct.</hi> 4. Fourthly, <hi>Some Hypocrites will rejoyce for a time in a faithful Miniſter; yea; glory that they have ſuch a Miniſter:</hi> So the Word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ſignifies, ye were willing to glory in his Light, the Expreſſion is full, ye were willing, ye were forward to do it,
+<pb n="6" facs="tcp:49477:8"/>ye pleaſed your ſelves in doing it. Theſe are called by Divines, temporary Believers, who have a Faith (as one elegantly deſcribes it) that buds, and bloſſoms with ſome taſtes, and joyes in the things of God, but never comes to Fruit. They are likened by our Saviour to <hi>ſtony ground, Mark</hi> 4.16, 17. which hath not Earth enough for the feed to root in, and therefore it is ſcorch'd and wi<g ref="char:EOLhyphen"/>thered as ſoon almoſt as it ſprings up.</p>
+            <p>
+               <hi>Doct.</hi> 5. Fifthly, and laſtly, <hi>God obſerves how Miniſters diſcharge their Function, and how their People are under their Miniſtry.</hi> He obſerves what Miniſters burn and ſhine, and who do not; and who hate and ſcoff at the Word, and who rejoyce in it, yea, and what effect it hath on our Lives. Oh, how careful then ſhould both Miniſters and Peo<g ref="char:EOLhyphen"/>ple be, ſince God's Eye is upon them? You ſee God took notice that <hi>John Baptiſt</hi> was a <hi>burning</hi> and a <hi>ſhining light,</hi> and that the Jews were willing to rejoyce but for a ſea<g ref="char:EOLhyphen"/>ſon in his light; and the ſame All-ſeeing Eye
+<pb n="7" facs="tcp:49477:8"/>obſerves you, and me, and every Miniſter and his Auditors.</p>
+            <p>We ſhall inſiſt on the firſt Doctrine, ta<g ref="char:EOLhyphen"/>ken from the Character Chriſt gives of <hi>John Baptiſt.</hi>
+            </p>
+            <p>
+               <hi>Doct. Faithful Miniſters are burning and ſhining Lamps, or Candles.</hi>
+            </p>
+            <p>It was uſuall with the <hi>Jews,</hi> to call a Perſon, that was eminent for knowledge and a good Life, <hi>Lucerna,</hi> a Lamp: hence thoſe Titles of the Rabbies, <hi>lucerna legis,</hi> the candle of the Law, for one vers'd in the Law: and <hi>lucerna looi ſui,</hi> for one famous in the Place where he lives. And the Scripture (you ſee) makes uſe of the ſame Metaphor. There are other Metaphors in Scripture by which Mi<g ref="char:EOLhyphen"/>niſters are deſcribed, as Salt, Stars, <hi>&amp;c.</hi> But we will keep to the Metaphor in the Text, and enquire briefly, firſt, why they are com<g ref="char:EOLhyphen"/>pared to a Lamp or Candle. Secondly, why they are ſaid to be burning Candles. Third<g ref="char:EOLhyphen"/>ly, why ſhining. And laſtly, apply it.</p>
+            <pb n="8" facs="tcp:49477:9"/>
+            <p> Firſt, Why are they called <hi>Lamps or Can<g ref="char:EOLhyphen"/>dles.</hi> The Reaſons are, firſt, becauſe 'tis a dark Place in which they ſhine, <hi>Earth,</hi> which is ſadly over-ſpread with Ignorance, and In<g ref="char:EOLhyphen"/>fidelity. Over the Minds of moſt, there is ſuch a thick darkneſs that they know nothing of the things of God; and the beſt ſee but through a Glaſs darkly. The brighteſt part of the Earth, is but a Dungeon compared with Heaven, where the Lord God and the Lamb is the Light. We are ſent to give Light to the Children of the Night, and therefore are fitly compared to Candles.</p>
+            <p>Secondly, Becauſe our light is but ſmall, and reaches but a little way; ſo that there is need of many Miniſters to enlighten the World.</p>
+            <p>The Sun gives Light to the whole Earth, and other Luminaries borrow their Light from it, and therefore Jeſus Chriſt is com<g ref="char:EOLhyphen"/>pared to the Sun, he is <hi>Fons Lucis,</hi> the Foun<g ref="char:EOLhyphen"/>tain of Light, from whom Miniſters have theirs. Some Miniſters are bigger Candles
+<pb n="9" facs="tcp:49477:9"/>than others, and Stars of a greater Magni<g ref="char:EOLhyphen"/>tude, but yet they are but Candles, and Stars, they are not the Sun. Every faith<g ref="char:EOLhyphen"/>ful Miniſter hath boundleſs deſires of doing good, he would have (if poſſible) what St. <hi>Chryſoſtom</hi> deſired, all the World for his Auditory, and a Voice like Thunder, that might reach them, he would inſtruct, and ſave all; but alas, he can inſtruct but few; he is but a Candle, whoſe rayes reach not far.</p>
+            <p>Thirdly, They are called <hi>Candles,</hi> becauſe they endure but a ſhort time. A Church indeed God will ever have; the Gates of Hell cannot prevail againſt it: it lives in the Flames, as the Buſh, its emblem. <hi>Exo.</hi> 3.2. But particular Members, and Paſtours, as well as others dye. Some burn longer than others, but they that burn longeſt, burn but a time; and uſually, they that burn cleareſt, are ſooneſt out, as our Reverend Brother, and divers other famous Divines. And hence alſo, becauſe of their Frailty, and
+<pb n="10" facs="tcp:49477:10"/>Mortality, they are called earthen Veſſels; <hi>We have</hi> (ſays the Apoſtle) <hi>this Treaſure in earthen Veſſels, that the excellency of the Power might be of God, and not of Man.</hi> 2. <hi>Cor.</hi> 4.7. On therefore you that have good Miniſters, walk in their Light while they ſhine amongſt you; for you cannot enjoy them long, they will be extinguiſhed. <hi>Zach.</hi> 1.5. <hi>Your Fathers, where are they? and the Prophets? do they live for ever?</hi> No, they dye as other Men.</p>
+            <p>Fourthly, As they are called Candles, becauſe they will burn out; ſo becauſe they waſte in giving Light, their Spirits, and Strength, are exhauſted in ſtudying, and preaching, <hi>&amp;c.</hi> It was a great Comfort to our Biſhop <hi>Jewel</hi> (of bleſſed Memory) when he was on his Death-Bed, that his Bo<g ref="char:EOLhyphen"/>dy was waſted away in the Labours of his holy Calling: the ſame we may ſay of our Brother, He ſpent himſelf in the Work of the Miniſtry: and, as St. <hi>Auſtin</hi> deſired, that Death might arreſt him, <hi>aut precantem, aut
+<pb n="11" facs="tcp:49477:10"/>praedicantem,</hi> either praying, or preaching; the Sickneſs that was the Death of our Bro<g ref="char:EOLhyphen"/>ther, ſeiſed him <hi>Praedicantem,</hi> while he was preaching. <hi>Jer.</hi> 6.29, 30. <hi>The Bellows are burnt,</hi> (that is the Lungs of the Prophets) <hi>The Lead is conſumed of the Fire,</hi> (the Ex<g ref="char:EOLhyphen"/>hortations, Affections, <hi>&amp;c.</hi> of the Prophets) by which they endeavoured to draw the People from their Sins, as the Founder, by Lead melteth the Silver in order to the pu<g ref="char:EOLhyphen"/>rifying it from Droſs. Wo to thoſe, for whom they have been ſpent in vain, <hi>Repro<g ref="char:EOLhyphen"/>bate Silver ſhall Men call them, for the Lord hath rejected them.</hi>
+            </p>
+            <p>Fifthly, and laſtly, Becauſe there will be no need of Miniſters in the Morning of the Reſurrection, as there is not of Candles, when we have the Light of the Sun. We expect a brighter time than this before the Reſurrection; when the Earth ſhall be filled with the Knowledge of the Lord, as the Wa<g ref="char:EOLhyphen"/>ters cover the Sea; which will be at the re<g ref="char:EOLhyphen"/>ingraffing of the <hi>Jews;</hi> but it will not be
+<pb n="12" facs="tcp:49477:11"/>day untill the Sun of Righteouſneſs comes in the Clouds: and therefore, even then, there will be need of Miniſters; otherwiſe God had not appointed (as he hath) that there ſhould be Paſtours and Teachers, untill all the Elect are called, and the Body of Chriſt perfected, which will not be e're the end of the World. <hi>Epheſ.</hi> 4.11, 12, 13. <hi>And he gave ſome Apoſtles: and ſome Prophets: and ſome Evangeliſts: and ſome Paſtours and Teach<g ref="char:EOLhyphen"/>ers: for the perfecting of the Saints, for the work of the Miniſtry, for the edifying of the Body of Chriſt: till we all come to the <g ref="char:V">Ʋ</g>nity of the Faith, and of the Knowledge of the Son of God, unto a perfect Man, unto the meaſure of the ſtature of the fullneſs of Chriſt.</hi> To boaſt that we are above Ordinances (as ſome do) e're the Body of Chriſt is perfected, ſhews Ignorance and Pride, and imputes im<g ref="char:EOLhyphen"/>prudence to the All-wiſe God, in ordering that there ſhould be a Miniſtry till that time: but then (when the Body of Chriſt is edified) the Miniſtry will ceaſe, all dark<g ref="char:EOLhyphen"/>neſs
+<pb n="13" facs="tcp:49477:11"/>will be diſpelled, we ſhall ſee Face to Face, and know as we are known.</p>
+            <p>The ſecond thing to be enquired into, is, why they are called <hi>burning Candles.</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> It is becauſe of the Zeal, the fervour of their Affections, by which they warm the cold, benummed Affections of their People, and kindle in them good Deſires, and Reſoluti<g ref="char:EOLhyphen"/>ons, (or rather the Spirit of God by them.) O, that there are no more ſuch Miniſters! How lifeleſs are the Souls of our People un<g ref="char:EOLhyphen"/>der our Miniſtry, becauſe we do not burn? How can we expect that they ſhould be af<g ref="char:EOLhyphen"/>fected with our Sermons, when the Word of Life ſeems to dye in our cold, and heart<g ref="char:EOLhyphen"/>leſs preaching it? Oh, that God would fire our Affections, that we might be inſtrumen<g ref="char:EOLhyphen"/>tal to kindle good Affections in others. I have read of a Man that gave this reaſon for his forſaking <hi>Paris,</hi> that he perceived their Sermons were every day colder than other, ſo that he feared if he tarried there longer, he ſhould be ſpiritually frozen to death.
+<pb n="14" facs="tcp:49477:12"/>I relate not this to juſtifie Separatiſts, but to give a hint of the Miſchief of careleſs preaching. We want burning Miniſters in this frozen Age. Plain Sermons, preached with Affection, will do more good than the moſt learned, coldly delivered. <hi>Euſebius</hi> tells us of a Heathen, that came to an aſ<g ref="char:EOLhyphen"/>ſembly of Biſhops, to diſcourſe the Articles of Faith; and when the learned'ſt of them looked one upon another, fearing to encoun<g ref="char:EOLhyphen"/>ter with him, becauſe of his acute Parts; one eſteemed the meaneſt for Learning, with great Ardour of Affection, told him, that unleſs he believed in Father, Son, and Holy Ghoſt, he ſhould be damned; and therefore it was in vain to cavil, he muſt ſubject his carnal Reaſon to Faith: which ſo wrought upon him, that he embraced the Chriſtian Religion, and was baptized; ſaying, he could anſwer Reaſon with Reaſon, but he could not reſiſt the Authority with which that Biſhop ſpake. <hi>Lucerna, ut luceat, arde<g ref="char:EOLhyphen"/>re debet;</hi> we muſt burn that we might ſhine.
+<pb n="15" facs="tcp:49477:12"/>They who have not good Affections, do not, cannot give light to others into the moſt ſpiritual Myſteries of Chriſtianity; their Ser<g ref="char:EOLhyphen"/>mons are dry and jejune, more like the Diſ<g ref="char:EOLhyphen"/>courſes of the Heathens, than Goſpel Ser<g ref="char:EOLhyphen"/>mons: It is ſeldom that they touch upon the Vitals of Religion, and when they do it's ſuperficial and inſipid to a ſanctified Sence: neither do they ſhine in their Converſations; for it is Zeal that makes a Perſon active for God.</p>
+            <p>The third thing to be enquired into, is, why they are called ſhining Lamps, or Candles. <hi>Anſ.</hi> It is becauſe they give light by their Doctrine and Example. The Learning of ſome is loſt for want of Zeal; and the good Affections of others for want of Knowledge: and there are ſome Hypo<g ref="char:EOLhyphen"/>crites that ſhine, and ſeem to burn, to have a concern for the Glory of God, and Hap<g ref="char:EOLhyphen"/>pineſs of Souls, in the Pulpit; but darken the light of their Doctrine by their wicked, ſcandalous Converſations. Zeal without
+<pb n="16" facs="tcp:49477:13"/>Knowledge, is fitly compared to the Fire of Hell, which hath Heat, but no Light: and they that have Learning and not Grace, to the Toad, who (as <hi>Naturaliſts</hi> ſay) hath a Jewel in his Head, but Poyſon in his Bel<g ref="char:EOLhyphen"/>ly. Thereſore we muſt both burn and ſhine, have Knowledge, Zeal, and a holy Con<g ref="char:EOLhyphen"/>verſation.</p>
+            <p>
+               <hi>Appl.</hi> But alas, alas! are there not ſome that want a Head, and more that want a Heart for God? and (O that I had not cauſe to ſay it) too many that want both, and are ſcandalous in their Converſations? I know this Age hath afforded as many holy and learned Miniſters as any, but yet there are too few; and therefore they have cauſe to lament, from whom God hath taken a faithful Miniſter. Oh, what a Mercy is it to benighted Souls, (whoſe way is covered with Snares, and who have a ſeducing De<g ref="char:EOLhyphen"/>vil whom they are prone to follow) to have a faithful Miniſter, to call them when out of the way, and ſhew them the Way
+<pb n="17" facs="tcp:49477:13"/>of Life, and light them along in it? What a mercy is it to have a zealous Miniſter to warm our frozen Hearts, and quicken us in the way of God? How indifferent ſhould we be, what be<g ref="char:EOLhyphen"/>came of the Intereſt of God, and of our Souls; how ſhould we ſettle on our Lees, if not ſtirred by his lively Exhortations? Alas, that blind Sinners ſhould be ſo inſenſible of it. Some are glad when their Lights are gone, becauſe they reprove their beloved deeds of darkneſs; but oh, how will they repent it, when they are plun<g ref="char:EOLhyphen"/>ged into everlaſting darkneſs? Oh, <hi>Haverſham, Haverſham!</hi> thou had'ſt this mercy, but thou haſt loſt it; thou art a Candleſtick, but thy Candle is gone; you had a burning and a ſhining Light, his Knowledge and Example ſhined to you, his fervent Affections warm<g ref="char:EOLhyphen"/>ed you; how gloriouſly did this Pariſh ſhine with his Light? it drew the Eyes of the Inha<g ref="char:EOLhyphen"/>bitants round about, and made them ad<g ref="char:EOLhyphen"/>mire at God's goodneſs to you. But now your Candle is out, and how great is your Darkneſs! I need not inſiſt on this to move you to lament your loſs; I ſee you are ſenſi<g ref="char:EOLhyphen"/>ble
+<pb n="18" facs="tcp:49477:14"/>of it: neither will I endeavour to ſtop your Sorrow. Weep on, your loſs re<g ref="char:EOLhyphen"/>quires your Tears; and I muſt bear a part with you. You have loſt a faithful Paſtour; I, a dear and faithful Brother. How oft have we taken ſweet Counſel, and walked to the Houſe of God? How oft have I been refreſhed by his Heavenly Diſcourſe, and Prayers? Ah, my Brother <hi>Wrexham!</hi> di<g ref="char:EOLhyphen"/>ſtreſſed for thee; very pleaſant haſt thou been unto me.</p>
+            <p>But what have we done to provoke the Lord to inflict this heavy Judgment upon us? Are there any that did not prize him? (would to God there were not) if there be, they have been inſtrumental of pulling down this Judgment: For God will not long vouchſafe his Mercies to thoſe that deſpiſe them. Are there ſome who love Darkneſs, and wiſhed that their Light might be removed, that ſo they might undiſturbed enjoy their Luſts? Lo! he is extinguiſhed. He will ſhew you your Sins, and trouble
+<pb n="19" facs="tcp:49477:14"/>your Conſciences no more by his Reproofs, Exhortations, <hi>&amp;c.</hi> But know ye, that the Light, which through him hath already ſhined into your Souls, will leave you in<g ref="char:EOLhyphen"/>excuſable, and aggravate your Condem<g ref="char:EOLhyphen"/>nation without Repentance. <hi>John.</hi> 3.19. <hi>This is the Condemnation, that light is come into the World, and Men love Darkneſs ra<g ref="char:EOLhyphen"/>ther than Light, becauſe their Deeds are Evil.</hi> They who have had, and abuſed moſt Light, will ſink loweſt in the dark and bot<g ref="char:EOLhyphen"/>tomleſs Pit.</p>
+            <p>Again, Are there not ſome who grew more cold, while he burned amongſt us? who by an <hi>Antiperiſtaſis</hi> were cooled by his heat? God threatned the <hi>Epheſians</hi> with the removal of their Candleſtick, for loſing their firſt Love. <hi>Rev.</hi> 2.4, 5. <hi>Nevertheleſs I have ſomewhat againſt thee, becauſe thou haſt left thy firſt love. Remember therefore from whence thou art fallen, and repent, and do thy firſt works: or elſe I will come unto thee quickly, and remove thy Candleſtick out of his place, ex<g ref="char:EOLhyphen"/>cept
+<pb n="20" facs="tcp:49477:15"/>thou repent.</hi> And behold! your Can<g ref="char:EOLhyphen"/>dle is removed.</p>
+            <p>Again, Are there not ſome Hypocrites, who have but a name to live, to whom God may ſay, as he did to <hi>Sardis,</hi> I have not found thy Works perfect before God? ſome Works thou haſt done; thou haſt given me bodily Worſhip; but there wants a Heart, and good Intentions, and therefore they are not perfect. God threatned that he would come ſuddenly, as a Thief, upon this Church, and they ſhould not know at what Hour. And lo! God is come ſud<g ref="char:EOLhyphen"/>denly upon us, and with a ſurprize ſnatched away our Candle. Hypocrites hide their Wickedneſs, and by their Cheats impoſe upon the World, and Gods Judgments ſteal upon them. Oh! will there be yet a Hy<g ref="char:EOLhyphen"/>pocrite in <hi>Haverſham?</hi>
+            </p>
+            <p>Again, Are there any proud Profeſſors in this Place, who think they have Know<g ref="char:EOLhyphen"/>ledge enough, and Grace enough, and have no need of Miniſters? (God knows your
+<pb n="21" facs="tcp:49477:15"/>ſecret Thoughts) For this Pride God threat<g ref="char:EOLhyphen"/>ned to ſpue the <hi>Laodiceans</hi> out of his Mouth. <hi>Rev.</hi> 3.16, 17. <hi>So then becauſe thou art luke<g ref="char:EOLhyphen"/>warm, neither hot, nor cold, I will ſpue thee out of my Mouth: becauſe thou ſayeſt, I am rich, and encreaſed with Goods, and have need of nothing; and knoweſt not that thou art wretch<g ref="char:EOLhyphen"/>ed, and miſerable, and poor, and blind, and naked.</hi> Oh that God might not ſpue out you!</p>
+            <p>Again, Not to inſiſt any longer on par<g ref="char:EOLhyphen"/>ticulars; We have not improved this Light, we were idle while the Candle Burned; and therefore God hath taken him away; we were unfruitful, while God by him dreſſed us, and therefore the Labourer is called out of the Vineyard. Unfruitfulneſs is the deſolating Sin of Churches. <hi>Luke</hi> 13.7. <hi>Behold, theſe three years have I come ſeeking Fruit, and found none: cut it down, why cumbreth it the Ground?</hi> It is thought, the three years of our Saviours Miniſtry is intended, he now being entred upon the laſt half year of it. And it is but three
+<pb n="22" facs="tcp:49477:16"/>or four years, that your faithful Miniſter laboured among you, and he is taken away. O, doth not this Judgment ſound through your Ears, Repent, Repent, and bring forth Fruit? for the Axe is not only laid, but ſtrikes at the root of the Tree.</p>
+            <p>
+               <hi>
+                  <g ref="char:V">Ʋ</g>ſe.</hi> Secondly, Are faithful Miniſters burning and ſhining Lights? then they are to be reproved who deſpiſe and hate Mini<g ref="char:EOLhyphen"/>ſters. Light is pleaſant, one of the moſt comfortable of Gods Creatures, and Mini<g ref="char:EOLhyphen"/>ſters are Lights, why then are not Miniſters loved? So great a love and value of God's Meſſengers had the Church of Old, ſo much were they affected with the bleſſed News of Peace which they brought, that they cry<g ref="char:EOLhyphen"/>ed out with Admiration, as if they could not expreſs it, <hi>How beautiful upon the Mountains are the Feet of him that bring<g ref="char:EOLhyphen"/>eth good Tidings, that publiſheth Peace, that bringeth good Tidings of Good, that pub<g ref="char:EOLhyphen"/>liſheth Salvation, that ſaith unto Zion, thy God reigneth, Iſa.</hi> 52.7. Yea, they eſteemed
+<pb n="23" facs="tcp:49477:16"/>the removal of their Teachers more grievous than the ſoreſt of temporal Calamities. <hi>Iſa.</hi> 32.20. And though the Lord give you the Bread of Adverſity, and the Water of Af<g ref="char:EOLhyphen"/>fliction, yet ſhall not your Teachers be re<g ref="char:EOLhyphen"/>moved into a Corner any more, but thine Eyes ſhall ſee thy Teachers. And 'tis re<g ref="char:EOLunhyphen"/>ported of St. <hi>Chryſoſtom</hi>'s Auditours, that they ſaid, they could better want the Sun, than <hi>Chryſoſtom.</hi> But ſuch is the Blindneſs, and Atheiſm of this Age, that the everlaſt<g ref="char:EOLhyphen"/>ing Goſpel is deſpiſed, and God's Ambaſſa<g ref="char:EOLhyphen"/>dours who publſh it: their Auditours ſet at nought all their Counſels, and will have none of their Reproofs: Inſtead of working for God and their Souls, they play, and ſin, while the Candles burn and ſhine to them, in the Hand of God, and do wiſh that they were extinguiſhed. Oh, what will be the end of this, but the loſs of the Goſpel, un<g ref="char:EOLhyphen"/>leſs God gives timely Repentance! Ye judge your ſelves unworthy of it, and of Eternal Life; and the Duſt of the Feet of Gods
+<pb n="24" facs="tcp:49477:17"/>deſpiſed Miniſters, will be a Witneſs againſt you, and make your Condemnation more dreadful, than <hi>Sodoms,</hi> or <hi>Gomorrahs:</hi> as you may ſee in <hi>Math.</hi> 10.14, 15. <hi>And who<g ref="char:EOLhyphen"/>ſoever ſhall not receive you, nor hear your Words: when you depart out of that Houſe, or City, ſhake off the Duſt of your Feet: Verily, I ſay unto you, it ſhall be more tolerable for the Land of</hi> Sodom, <hi>and</hi> Gomorrah, <hi>in the day of Judgment, than for that City.</hi>
+            </p>
+            <p>
+               <hi>
+                  <g ref="char:V">Ʋ</g>ſe.</hi> 3. Thirdly, Are Miniſters Lights? then let Miniſters improve the Talents that God hath given them for the Inſtruction, Converſion, and Salvation of Souls. <hi>Mat.</hi> 5.15, 16. <hi>Neither do Men light a Candle, and put it under a Buſhel; but on a Candleſtick; and it giveth light to all that are in the Houſe. Let your light ſo ſhine before Men, that they may ſee your good Works, and glorifie your Fa<g ref="char:EOLhyphen"/>ther which is in Heaven.</hi>
+            </p>
+            <p>Secondly, You that have a faithful Mi<g ref="char:EOLhyphen"/>niſter, prize and love him, and walk in his Light while ye have him. We alſo had one
+<pb n="25" facs="tcp:49477:17"/>lately, but now he is extinguiſhed: take warning by our loſs, and provoke not God to take away yours likewiſe.</p>
+            <p>I know it is expected that I ſhould ſpeak ſomething of our Reverend Brother. I ſhall not give you a full draught of him. Omit<g ref="char:EOLhyphen"/>ting his Juſtice, Temperance, <hi>&amp;c.</hi> I ſhall draw ſome parts, which were extraordinary; And this I can do but imperfectly; for, as <hi>Pliny</hi> ſays, <hi>Pictores abſolutain Faciem, raro, niſi in pejus depingunt,</hi> Painters ſeldom paint a very beautiful Face, but with diſadvan<g ref="char:EOLhyphen"/>tage. He was wholly devoted to his Mi<g ref="char:EOLhyphen"/>niſterial work, not being careful about the Affairs of this World: He did (as the Apo<g ref="char:EOLhyphen"/>ſtle <hi>Paul</hi> exhorted <hi>Timothy</hi>) give himſelf to reading, and ſtudying the Word; avoiding Society, but with ſuch as might improve him, either in his Knowledge, or Grace. He was <hi>Lucerna Legis &amp; Evangelii:</hi> An <hi>Apollos,</hi> mighty in the Scriptures: It was his great Delight to ſtudy, and preach them. Before he came to this Pariſh he conſtantly preached twice a day, and had many Au<g ref="char:EOLhyphen"/>ditours.
+<pb n="26" facs="tcp:49477:18"/>He was both a <hi>Boanerges,</hi> and a <hi>Barnabas:</hi> And God bleſſed his Miniſtry, for the awaking of Sinners, and edifying, and comforting of Saints. He knew how to divide the Word of God aright, and to give to every one his Portion in due ſea<g ref="char:EOLhyphen"/>ſon. He ſhined in the Doctrinal part of his Sermon, and burned in the Applicatory. He preached with ſuch Life and Power, as you might perceive he had ſervent deſires to do good to his Auditours: both in prayer, and preaching, he excelled moſt of his Brethren. He was a great admirer of free Grace, and delighted to preach and meditate on it; and while meditating on it, was once (as he told a Boſom-Friend, he was ſhy of ſpeaking of ſuch things) ſo raviſhed in a Journey, that for twelve Miles he rode weeping, and cry<g ref="char:EOLhyphen"/>ing, Lord, how good art thou, how bad am I! how good art thou, how bad am I! and was troubled, that his Thoughts were ſo ſoon diverted by his arrival to the end of his Journey. But he did not alwayes live in Raptures. He had his Night, and a long
+<pb n="27" facs="tcp:49477:18"/>and diſmal Night it was, for it laſted three quarters of a year together. It pleaſed the Lord to exerciſe him with ſtrange, and dread<g ref="char:EOLhyphen"/>ful Temptations, which forced him to retire to his Wives Friends; never I believe was <hi>Heman,</hi> or any Saint, for the time, in greater depths, than our bleſſed Brother was; the Ar<g ref="char:EOLhyphen"/>rows of the Almighty ſtuck faſt in him, and his Terrours drank up his Spirits; None can expreſs the horrour that was in his Soul. I have been with him, when (though he could not do it fully) he hath expreſſed it in ſuch dreadful manner, that it was enough to make ones Heart tremble to hear him. Oh! ſaid he, if I were to lye in Hell, but a hundred, or a thouſand years, I ſhould not be ſo much trou<g ref="char:EOLhyphen"/>bled; but Eternity breaks my Heart into ten thouſand pieces. O, I have eaten of the Tree of Knowledge, and neglected the Tree of Life, and now the flaming Sword turns every way, to keep me out of Paradiſe. O, ſaid he, I am a Pillar of Salt, enough to ſeaſon a Na<g ref="char:EOLhyphen"/>tion; the wretchedeſt, the moſt unfortunate Creature, that ever Gods Earth bare: I ſhall
+<pb n="28" facs="tcp:49477:19"/>be lower in Hell, than <hi>Cain,</hi> or <hi>Judas,</hi> or <hi>Ne<g ref="char:EOLhyphen"/>ro:</hi> Oh, why did the Knees prevent me? Why came I out of my Mothers Womb? Many ſuch Sentences fell from him. Ah Sinners, do not your Hearts tremble to hear it? If this was done to the green Tree, what will be done to the dry? If a Saint, a Holy, Faith<g ref="char:EOLhyphen"/>ful Miniſter ſuffered ſo much, what will you ſuffer unleſs you repent? Oh, how apt are Sin<g ref="char:EOLhyphen"/>ners to bleſs themſelves, and condemn thoſe, who in their loweſt eſtate are a thouſand times better than they in their beſt; as the Phariſee cenſured the Mourner at Chriſts Feet, who was in better Condition than himſelf. But know, that a wounded Conſcience, is better than a ſtupid Conſcience, and wholſom trou<g ref="char:EOLhyphen"/>ble, than falſe, and rotten Peace.</p>
+            <p>But that <hi>Gath</hi> and <hi>Askelon</hi> might not re<g ref="char:EOLhyphen"/>joyce, that the uncircumciſed might not tri<g ref="char:EOLhyphen"/>umph, God did not leave his Soul in Hell; he remembred him in his low eſtate, for his Mercy endureth for ever. God reſtored comfort to his Mourner; but by degrees, leſt he ſhould be overwhelmed, a glimmering
+<pb n="29" facs="tcp:49477:19"/>light breaks into his Soul, by which he read the name of God, which is, the Lord God, gracious, and merciful <hi>&amp;c.</hi> As he ſtiles him<g ref="char:EOLhyphen"/>ſelf in <hi>Exod.</hi> 34.6, 7. He had high Thoughts of the mercy of God, which ſo affected him, (though he knew not of his Intereſt in it) that he was forced (like <hi>Joſeph</hi>) to ſeek a Place to weep in. After this, his Lips were opened, that he might ſhew forth God's Praiſe: and he preached on <hi>Jonah</hi> 2.4. <hi>Then ſaid I, I am caſt out of thy ſight; yet will I look again to<g ref="char:EOLhyphen"/>wards thy holy Temple.</hi> Soon after (while his hope of Mercy was but ſmall) God viſited him with a very ſore ſickneſs, in which he was nigh unto Death; but the Lord reſtored him, and this dumb <hi>Ezekiel</hi> propheſied again, and was a burning and a ſhining Light to you, amongſt whom God ſetled him, according to his deſire. You, among the many thouſands of <hi>England,</hi> were the People of his Love and choice. For when a Reverend Brother told him in his ſickneſs, he came to offer him Pre<g ref="char:EOLhyphen"/>ferment: Heaven, Heaven, cry'd this holy Man of God: No, reply'd his Friend, it is
+<pb n="30" facs="tcp:49477:20"/>Earthly Preferment, and where would you have it? he readily anſwer'd, at <hi>Haverſham.</hi> Oh <hi>Haverſham!</hi> how unworthy art thou of the Love and Labours of ſuch a Miniſter? And what ſought he here, but the Gain of your Souls? How did he ſpend himſelf for your Salvation? How earneſtly did he exhort, how compaſſionately warn you; how for<g ref="char:EOLhyphen"/>ward was he to inſtruct, and comfort you? How ready was he, when you were ſick, to pray for you, and relieve you? He was a <hi>burning</hi> and a <hi>ſhining</hi> Light. I need not ſay much: ye are Witneſſes, and God alſo, how holily, and unblameably he behaved himſelf among you. That little he continued with you, he had much Peace in his Soul, and comfort<g ref="char:EOLhyphen"/>ed others, with the Comfort wherewith he himſelf was comforted of God.</p>
+            <p>In his laſt Sickneſs, he was no leſs, than in his Health, concerned for the Happi<g ref="char:EOLhyphen"/>neſs of your Souls. Frequently did he lift up his Hands, and pronounced the Bleſſing, <hi>The Grace of our Lord Jeſus Chriſt, the Love of God the Father, and the comfortable Fellow<g ref="char:EOLhyphen"/>ſhip
+<pb n="31" facs="tcp:49477:20"/>of God the Holy Ghoſt be with you all Amen.</hi> Adding always, What would you have more? One thing troubled him in his Sickneſs, that Profeſſours ſhould have no more love one for another, ſeeing they are Mem<g ref="char:EOLhyphen"/>bers of the ſame Body, and are ſo earneſtly preſſed by our dear Saviour, and by his Apo<g ref="char:EOLhyphen"/>ſtles to this Duty. Is it not enough that the World hates you, but you muſt hate one another? ſuch was his concern for you. As for himſelf, he was full of Peace and Com<g ref="char:EOLhyphen"/>fort, and freely reſigned himſelf to God, ſay<g ref="char:EOLhyphen"/>ing to his Wife, mourning by his Bed, this is God's World, and we are his Creatures; and ſhould not God do in his own World, what pleaſeth him. I asked him, whether Je<g ref="char:EOLhyphen"/>ſus was not now ſweet to him: Oh, yes, re<g ref="char:EOLhyphen"/>ply'd he, unexpreſſibly ſweet. A little before his departure, I ſaid to him, your Body is weak, but I hope your Faith is vigorous; Yea, reply'd he, bleſſed be God, it is very vigo<g ref="char:EOLhyphen"/>rous. Then I asked, whether he had no Cloud, nothing of Fear upon him? he reply'd, no, I bleſs the Lord, not any: and not long before, he
+<pb n="32" facs="tcp:49477:21"/>told a Friend, he did not know one Promiſe in the Bible, that he could not apply to himſelf.</p>
+            <p>Thus we ſee that Scripture verified; <hi>Mark the perfect Man, and behold the upright, for the end of that man is Peace.</hi> Though God hid his Face from him, for a time, yet in his laſt years he had Peace, and dyed triumphing over Sin and Satan. And now this great Light ſhines amongſt the glorious Lights above, while we in this dark Vale bewail our irreparable Loſs. <hi>Help, Lord, for the godly man ceaſeth, for the Faithful fail from among the Children of Men.</hi>
+            </p>
+         </div>
+         <div type="epitaph">
+            <head>THE EPITAPH.</head>
+            <lg>
+               <l>HEre lye interr'd a Learned Saint's Remains.</l>
+               <l>O the rich Mineral which this Ground contains!</l>
+               <l>He had a vast Ambition to be Good,</l>
+               <l>That that would make him Great, he understood.</l>
+               <l>He knew the way to riſe was low to fall;</l>
+               <l>Who ſeem'd to aim at nothing, aim'd at all.</l>
+               <l>Witty he was, and Wiſe. His ready Wit</l>
+               <l>To his commanding Judgment did ſubmit.</l>
+               <l>God's Book he truſted, but Mens Books did try;</l>
+               <l>God's Book the Touch-ſtone was, he try'd 'em by.</l>
+               <l>God's Book and He, how well were they agreed!</l>
+               <l>He lick'd the Leaves, and they his Soul did feed.</l>
+               <l>And, that he might be perfect in his Rules,</l>
+               <l>He forty weeks learn'd in Temptations Schools.</l>
+               <l>He was a Bright Divine, Who clearly ſaw,</l>
+               <l>The Precincts of the Goſpel and the Law.</l>
+               <l>He was an earneſt Preacher of the Word,</l>
+               <l>As one that knew the Terrours of the Lord.</l>
+               <l>He watch'd his Flock, with ſo concern'd an eye,</l>
+               <l>As if he fear'd ſtarv'd Souls revengeful cry.</l>
+               <l>
+                  <hi>Sleep Sacred Duſt. When Chriſt ſhall rend the Skies,</hi>
+               </l>
+               <l>
+                  <hi>Then thy concealed Worth with Thee ſhall riſe.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
